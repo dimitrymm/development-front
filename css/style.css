@@ -22,6 +22,7 @@
   
   body {
     margin: 0;
+    font-family: 'Alata', sans-serif;
   }
   
   /**
@@ -147,6 +148,7 @@
   
   img {
     border-style: none;
+    width: 100%;
   }
   
   /* Forms
@@ -347,22 +349,36 @@
   [hidden] {
     display: none;
   }
+  
 
   .navbar{
     padding: 15px;
     background-color: black;
-    color: white;
-   
-
+    color: white; 
   }
 
   li{
     display: inline-block;
     padding-right: 5vw ;
   }
-
-  .banner{
-    background-image: url("/img/banner2.png");
-    height: 480px;
-
+  .content{
+      
+      padding: 50px;
   }
+.galeria{
+    padding: 50px;
+}
+.galeria img{
+    width: 350px;
+    height: 200px;
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    padding: 50px;
+}
+h2{
+    font-family: 'Righteous', cursive;
+}
+  
